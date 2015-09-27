@@ -1,0 +1,26 @@
+{
+  "name": "slack-sprint-reminder",
+  "version": "0.1.0",
+  "description": "A little slack bot to help the MITH team with sprints",
+  "author": "Trevor Muñoz <tmunoz@umd.edu>",
+  "main": "index.js",
+  "repository": {},
+  "private": "true",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "moment": "^2.10.6",
+    "request": "^2.64.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.2.4",
+    "del": "^2.0.2",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-install": "^0.5.0",
+    "gulp-util": "^3.0.6",
+    "gulp-zip": "^3.0.2",
+    "run-sequence": "^1.1.4"
+  }
+}
